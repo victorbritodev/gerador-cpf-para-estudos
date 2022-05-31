@@ -15,6 +15,6 @@ $cpfaleatorioCinco = rand(10, 99);
   
   
   E dá um valor com o echo a seguir
-  echo $cpfaleatorio . '.' . $cpfaleatorioDois . '.' . $cpfaleatorioTres . '-'. $cpfaleatorioCinco;
+  ** echo $cpfaleatorio . '.' . $cpfaleatorioDois . '.' . $cpfaleatorioTres . '-'. $cpfaleatorioCinco; **
   
   
