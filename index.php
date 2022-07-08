@@ -1,26 +1,29 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Gerador de CPF - Victor Brito DEV</title>
-</head>
-<center>
-<body style="background-color: #7CFC00; font-color: white;">
 <?php
-
-if (isset($_POST['victordev']))
-{
-	$cpfaleatorio = rand(100, 999);
-	$cpfaleatorioDois = rand(100, 999);
-	$cpfaleatorioTres = rand(100, 999);
-	$cpfaleatorioQuatro = rand(100, 999);
-	$cpfaleatorioCinco = rand(10, 99);
-	echo "O CPF gerado é: 
-😊 <br>";
-	echo $cpfaleatorio . '.' . $cpfaleatorioDois . '.' . $cpfaleatorioTres . '-'. $cpfaleatorioCinco;
-}
+include 'modelo/inicio.php';
 ?>
-<form method="post">
-	<input name="victordev" type="submit" value="Gerar um CPF.">
-</form>
-</body>
-</html>
+
+
+   <div class="container">
+  <div class="row">
+    <div class="col-ms-2 mt-5">
+      <p class="text-white"> Olá, bem vindo ao Gerador, escolha uma opção para ser gerada: </p>
+      <a href="/gcpf.php">
+      <button type="button" class="btn btn-outline-light">Gerador de CPF</button>
+  </a>
+   <a href="/grg.php">
+      <button type="button" class="btn btn-outline-light">Gerador de RG</button>
+  </a>
+   <a href="/gsenha.php">
+      <button type="button" class="btn btn-outline-light">Gerador de Senha 4 digitos</button>
+  </a>
+      <button type="button" class="btn btn-outline-light">Gerador de CEP</button>
+    </div>
+   
+  </div>
+</div>
+
+
+    
+<?php
+include 'modelo/fimpag.php'
+?>
