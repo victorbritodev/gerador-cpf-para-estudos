@@ -1,6 +1,7 @@
 # 
 Um simples gerador para estudos:
 <hr>
+<img src="https://github.com/victorbritodev/geradores-dados/blob/main/intro.png?raw=true">
 Gera CPF; <br>
 Gera RG;<br>
 Gera Senha 4 digitos;<br>
